@@ -1,0 +1,500 @@
+@import "~antd/dist/antd.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+  }
+/* home styling */
+.container {
+  padding: 64px;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+h1, p,h2,h3, h4 {
+  color: #2d5362;
+}
+.firstBlock {
+  font-size: 1.5em;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.Goalsrow{
+  background-color: #faf1dc;
+  height: 500px;
+  display: inline-block;
+  position: relative;
+}
+.ourFetures{
+  background-color: transparent;
+  height: 500px;
+  display: inline-block;
+  position: relative;
+}
+.goalsContent{
+  padding-left: 100px;
+  width: 90%;
+}
+.teamContent{
+  width: 150%; 
+}
+.curved-divWhyus svg {
+  display: block;
+}
+.goalsSvg svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.column-66 {
+  float: left;
+  width: 56%;
+  padding: 20px;
+}
+.column-44 {
+  float: right;
+  width: 50%;
+  padding: 15px;
+}
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+.large-font {
+  font-size: 48px;
+  /* color: white; */
+}
+
+.semi-large-font {
+  font-size: 32px;
+}
+
+.xlarge-font {
+  margin-top: 20px;
+  font-size: 64px;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66, .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+/* end of home styling */
+.headerContainer{
+    height: 30vh;
+    background-color: #2d5362;
+}
+.custom-shape-divider-bottom-1613568772 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1613568772{
+    position: relative;
+    display: block;
+    width: calc(131% + 1.3px);
+    height: 217px;
+}
+
+.custom-shape-divider-bottom-1613568772 .shape-fill {
+    fill: #2d5362;
+}
+.curved-div {
+  background: #2d5362;
+  color: #fff;
+  text-align: center;
+}
+.curved-div h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+.curved-div p {
+  font-size: 1.4rem;
+  color: #fff;
+}
+.curved-div svg {
+    display: block;
+  }
+  /* nav menu */
+.ant-menu{
+ background-color: rgba(255, 255, 255, 0);
+ font-size: 17px;
+ border-bottom: none;
+ color: #E4BA4E;
+ 
+}
+.ant-menu-horizontal>.ant-menu-item-selected a {
+    color: #E4BA4E;
+  }
+  
+  .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-selected {
+    border-bottom: 2px solid #E4BA4E;
+  }
+  
+  .ant-menu-horizontal>.ant-menu-item a:hover {
+    color: #fff;
+  }
+  
+  .ant-menu-horizontal:not(.ant-menu-dark)>.ant-menu-item-active:hover {
+    border-bottom: 2px solid #fff;
+  }
+.footer{
+    background-color: #2d5362;
+    color: #fff;  
+}
+
+.Card-contatnt {
+  text-align: left;
+  font-size: 1.3em;
+}
+
+.contact-container {
+  width: 40%;
+  margin: auto;
+  padding: 50px 50px 20px 5px;
+  margin-top: 6px;
+  margin-bottom: 80px;
+  align-items: center;
+}
+.contact-title {
+  text-align: center;
+}
+  
+.RegisterForm {
+    margin: auto;
+    width: 500px;
+}
+/* calendar */
+.calendar{
+   width: 100%;
+  top: 50%;
+  left: 50%;
+
+}
+ /* .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child
+.ant-picker-calendar-full .ant-picker-panel  .ant-picker-calendar-date-today .ant-picker-calendar-header{
+  border-color: #2d5362;
+} */
+.events {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.events .ant-badge-status {
+  width: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.notes-month {
+  font-size: 28px;
+  text-align: center;
+}
+.notes-month section {
+  font-size: 28px;
+} 
+.Tech{
+   border-left: 1px solid #2d5362;
+   left: 200px;
+  }
+
+.Admin h1 , h2{
+  text-align: center;
+}
+/* our partners */
+.partners{
+  text-align: center;
+  align-items: center;
+  margin-top: 45px;
+  
+}
+.ant-carousel .slick-slide img{
+  display: inherit;
+}
+.ant-carousel .slick-dots li button{
+  background-color: #2d5362 ;
+}
+.ant-carousel .slick-dots li.slick-active button{
+  background-color: #2d5362 ;
+}
+/* admin forms */
+.ant-btn-primary{
+ background-color: #2d5362 ;
+ border-color: #2d5362;
+}
+.ant-btn-primary:hover{
+  color: #2d5362;
+  background-color: #fff;
+  border-color: #2d5362;
+}
+.addBtn{
+  height: 30px;
+  width: 120px;
+  line-height: 10px;
+  border-radius: 4;
+  background-color: #2d5362;
+  border-color:#2d5362;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 0;
+  margin-left: 500px;
+  margin-bottom: 20px;
+}
+.addBtn:hover{
+  color: #2d5362;
+  background-color: #fff;
+  border-color: #2d5362;
+}
+.TMtable{
+  margin: 40px 40px;
+  border: 1px solid #2d5362;
+  
+}
+.Admin{
+  margin: 60px 40px;
+}
+.site-layout-background {
+  background: #fff;
+}
+.ant-menu-item:hover, .ant-menu-item-active, .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open, .ant-menu-submenu-active, .ant-menu-submenu-title:hover{
+  color: #2d5362;
+  border-color:#2d5362;
+  
+}
+ /* .contact-title{
+  color: white;
+} */
+/* login */
+.loginBtn{
+  height: 40;
+  width: 90;
+  line-height: 40px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  text-align: "center";
+  font-size: 17px;
+  padding: 0;
+}
+.loginBtn:hover{
+  color:#fff;
+  background-color: transparent;
+}
+.ant-btn-primary:hover, .ant-btn-primary:focus{
+  background-color: transparent;
+  border: none;
+}
+.regRow{
+  background-color: #fff ;
+  height: 100vh;
+   width: 100%;
+   border-radius: 10px;
+} 
+.register-container h1{
+  width: 60%;
+  margin: auto;
+  padding: -10px 50px 20px 5px;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: left;
+  color: #2d5362;
+}
+.ant-input , .ant-input-affix-wrapper{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid #2d5362;
+}
+.regBtn{
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.ant-form-item-label > label::after{
+  content: none;
+}
+.ant-form-item-label > label{
+  padding-right: 20px;
+}
+.RegIco{
+  margin:50px;
+  padding: 20px;
+  font-size: 70px;
+  color: #2d5362;
+}
+/* track */
+.track{
+  margin: 30px; 
+}
+.ant-layout, .ant-layout{
+  background-color: #fff;
+}
+.edit{
+  color:#2d5362;
+}
+.AppAvatar{
+  color: #2d5362;
+  font-size: 40px;
+}
+.appointsIco{
+  color: #2d5362;
+}
+/* trash table */
+.ant-table-thead > tr > th{
+  text-align: center;
+  color: #2d5362;
+  font-size: 18px;
+}
+
+/* profile style */
+.profileInfo{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4%;
+  border: 1px solid #2d5362;
+  padding:40px;
+  margin: 60px 0px 60px 0px
+}
+.profileInfo .profform{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 50px 10px 50px;
+  border-radius: 4%;
+  width: 60vh;
+}
+.profIco{
+  margin:50px;
+  padding: 0px;
+  font-size: 50px;
+  color: #2d5362;
+}
+.profform .ant-btn{
+  border-color: #2d5362;
+  color: #2d5362;
+  width: 80px;
+  float: right;
+}
+.profform .ant-btn:hover{
+  border-color: #e4ba4e;
+  color: #e4ba4e;
+}
+.profform .ant-input {
+  width: 140px;
+
+}
+.addAppbtn{
+  height: 30px;
+  width: 150px;
+  line-height: 10px;
+  border-radius: 4;
+  background-color: #2d5362;
+  border-color:#2d5362;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  padding: 0;
+  margin-left: 1000px;
+  margin-bottom: 20px;
+}
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector{
+    width: 100%;
+    height: 32px;
+    padding: 0 11px;
+    margin-left: 150px;
+
+}
+.emptyCont{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+
+}
+/* profile side menu style */
+.sideMinue .ant-menu{
+    /* nav menu */
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 17px;
+  border-bottom: none;
+  color: #E4BA4E;
+  margin: 60px 0 0 0;
+  
+ 
+}
+/* profile cards style */
+.ant-card-actions > li > span a:not(.ant-btn), .ant-card-actions > li > span > .anticon{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  color: #2d5362;
+}
+/* Float four columns side by side */
+.Cardscolumn {
+  float: left;
+  display: grid;
+  width: 28%;
+  height: 30%;
+  padding: 25px 50px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.Cardsrow {
+  margin: -5px;
+}
+
+/* Clear floats after the columns */
+.Cardsrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .Cardscolumn {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.ant-card-body{
+  border: 1px solid #E4BA4E;
+  border-bottom: 1px solid #2d53627a;
+}
+.ant-card-actions{
+  border-top: transparent;
+  border-bottom: 1px solid #E4BA4E;
+  border-left: 1px solid #E4BA4E;
+  border-right: 1px solid #E4BA4E;
+}
+
+.titleSelect{
+  padding-left: -10px;
+}
+
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector{
+  padding: 0 5px
+}
